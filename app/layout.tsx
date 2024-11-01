@@ -1,8 +1,11 @@
-// https://www.youtube.com/watch?v=Zq5fmkH0T78 2:12
+// https://www.youtube.com/watch?v=Zq5fmkH0T78 2:34
 
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+
+//for markdown plugin needs css
+import 'easymde/dist/easymde.min.css'; 
 
 const workSans = localFont({
   src: [
