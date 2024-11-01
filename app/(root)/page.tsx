@@ -2,11 +2,7 @@ import SearchForm from "@/components/SearchForm";
 import StartupCard from "@/components/StartupCard";
 import Image from "next/image";
 
-export default async function Home({
-  searchParams,
-}: {
-  searchParams: Promise<{ query?: string }>;
-}) {
+export default async function Home({searchParams}: {searchParams: Promise<{ query?: string }>}) {
   const query = (await searchParams).query;
 
   const posts = [{
