@@ -10,6 +10,10 @@ export default async function Home({searchParams}: {searchParams: Promise<{ quer
   //retrieve query and filter fetch
   const params = { search: query || null }
 
+  //extract session can get sanity id of the author fom user:
+  const session = await auth(); 
+  
+
 
   // const posts = await client.fetch(STARTUPS_QUERY);
   //change to sanityFetch:
