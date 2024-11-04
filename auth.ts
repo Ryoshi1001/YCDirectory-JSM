@@ -6,7 +6,7 @@ import { AUTHOR_BY_GITHUB_ID_QUERY } from './sanity/lib/queries';
 
 export const { handlers, signIn, signOut, auth } = NextAuth({
   providers: [GitHub],
-  //callbacks functions after authentication by nextAuth:
+  //callbacks functions after authentication by nextAuth
   callbacks: {
 
     async signIn({
