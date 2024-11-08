@@ -13,3 +13,7 @@ export function formatDate(date: string) {
     year: 'numeric', 
   })
 }
+//JSONPARSE STRINGIFY FUNCTION TO USE IN APP
+export function parseServerActionResponse<T>(response:T) {
+  return JSON.parse(JSON.stringify((response)))
+}

@@ -13,7 +13,7 @@ const config: Config = {
 			screens: {
 				xs: {
 					min: '0px',
-					max: '480px'
+					max: '880px'
 				},
 				xxs: {
 					min: '0px',

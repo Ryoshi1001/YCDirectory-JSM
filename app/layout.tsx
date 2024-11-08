@@ -6,6 +6,7 @@ import "./globals.css";
 
 //for markdown plugin needs css
 import 'easymde/dist/easymde.min.css'; 
+import { Toaster } from "@/components/ui/toaster";
 
 const workSans = localFont({
   src: [
@@ -70,6 +71,7 @@ export default function RootLayout({
         className={`${workSans.variable} antialiased`}
       >
         {children}
+        <Toaster/>
       </body>
     </html>
   );

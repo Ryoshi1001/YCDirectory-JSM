@@ -4,6 +4,7 @@ import StartupCard, {StartupTypeCard} from "@/components/StartupCard";
 import { STARTUPS_QUERY } from "@/sanity/lib/queries";
 import Image from "next/image";
 import {sanityFetch, SanityLive} from "@/sanity/lib/live";
+import { auth } from "@/auth";
 
 export default async function Home({searchParams}: {searchParams: Promise<{ query?: string }>}) {
   const query = (await searchParams).query;
@@ -12,25 +13,11 @@ export default async function Home({searchParams}: {searchParams: Promise<{ quer
 
   //extract session can get sanity id of the author fom user:
   const session = await auth(); 
-  
 
 
   // const posts = await client.fetch(STARTUPS_QUERY);
   //change to sanityFetch:
   const { data: posts } = await sanityFetch({ query: STARTUPS_QUERY, params });
-
-    // console.log(JSON.stringify(posts, null, 2))
-
-  // const posts = [{
-  //   _createdAt: new Date(), 
-  //   views: 48, 
-  //   author: { _id: 1, name: "Adrian"}, 
-  //   _id: 1, 
-  //   description: "This description", 
-  //   image: "https://placehold.co/600x400", 
-  //   category: "Websites", 
-  //   title: "FrontEnd Websites"
-  // }]
 
   return (
     <>
@@ -58,7 +45,7 @@ export default async function Home({searchParams}: {searchParams: Promise<{ quer
               <StartupCard key={post?._id} post={post} />
             ))
           ) : (
-            <div>coins</div>
+            <div></div>
           )}
         </ul>
 
