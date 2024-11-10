@@ -7,6 +7,7 @@ Kind of you if viewing this web application and kind of JSM for course in NextJS
 
 Fun learning: NextJS, Sanity, GROQ for queries, new Form component, and many other good and useful things. 
 
+![](ycWebsite.png)
 
 ![](ycWebsiteA.png)
 
