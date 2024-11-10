@@ -9,6 +9,8 @@ Fun learning: NextJS, Sanity, GROQ for queries, new Form component, and many oth
 
 ![](ycWebsite.png)
 
+![](ycWebsiteA.png)
+
 ## Getting Started
 
 First, run the development server:
