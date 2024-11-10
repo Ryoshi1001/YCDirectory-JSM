@@ -1,11 +1,13 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 
-## Click here to view Website: 
-https://yc-directory-psi.vercel.app/
+## Click here to view Website: => https://yc-directory-psi.vercel.app/
 
 Kind of you if viewing this web application and kind of JSM for course in NextJS15
+
 Fun learning: NextJS, Sanity, GROQ for queries, new Form component, and many other good and useful things. 
+
+![](ycWebsite.png)
 
 ## Getting Started
 
