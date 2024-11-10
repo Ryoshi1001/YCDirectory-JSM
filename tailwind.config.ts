@@ -13,12 +13,17 @@ const config: Config = {
 			screens: {
 				xs: {
 					min: '0px',
-					max: '880px'
+					max: '539px'
 				},
 				xxs: {
 					min: '0px',
 					max: '300px'
-				}
+				}, 
+				'sm': '540px',
+				'md': '768px',
+				'lg': '1024px',
+				'xl': '1280px',
+				'2xl': '1536px',
 			},
 			colors: {
 				primary: {

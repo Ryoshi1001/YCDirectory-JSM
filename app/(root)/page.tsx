@@ -26,7 +26,7 @@ export default async function Home({searchParams}: {searchParams: Promise<{ quer
           Pitch Your Startup, <br /> Connect With Companies
         </h1>
         <p className="sub-heading !max-w-3xl">
-          Submit Ideas, Vote on Companies, and Get Notices as Virtual Currency.
+          Submit Ideas, Vote on Companies, and Get AirDrops of Virtual Currency.
         </p>
 
         <SearchForm query={query} />
