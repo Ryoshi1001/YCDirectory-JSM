@@ -15,7 +15,7 @@ const Navbar = async () => {
       <nav className="flex w-full flex-row flex-wrap items-center justify-between">
         <Link href={'/'}>
           <Image
-            src={'/Logo.png'}
+            src={'/logo.png'}
             alt="logo"
             width={143}
             height={30}
